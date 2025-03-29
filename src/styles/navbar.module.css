@@ -5,8 +5,11 @@
     display: flex;
     align-items: center;
     flex-direction: row;
+    background-color: transparent;
 }
 
 .text {
     font-size: 20px;
+    background-color: transparent;
+    color: black;
 }

@@ -1,7 +1,108 @@
+.background {
+    position: "relative";
+}
 
 .diag {
     position: absolute;
-    width: 100vw;
-    height: 100vh;
-    background-color: black;
+    width: 2000px;
+    height: 1000px;
+    background-color: #F1F1EF;
+    top: 250px;
+    left: -700px;
+    rotate: 50deg;
+    z-index: -1;
+}
+.image {
+    z-index: -2;
+}
+
+.textContainer {
+    height: 50vh;
+    width: 400px;
+    padding-left: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.textBig {
+    color: black;
+    font-size: 50px;
+}
+.textSub {
+    color: black;
+    font-size: 20px;
+}
+
+.button {
+    border:none;
+    padding:0;
+    width: 50%;
+    height: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.link {
+    width: 100%;
+    height: 30px;
+}
+
+/* POST PAGE BELOW */
+.textPost {
+    font-size: 50px;
+    color: black;
+}
+
+.textSubPost {
+    font-size: 12px;
+    color: black;
+    opacity: 0.5;
+}
+.textContainerPost {
+    height: 50vh;
+    width: 400px;
+    padding-left: 75px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.divForm {
+    height: 75vh;
+    width: 40vw;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.formContainer {
+    height: 75vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    gap:50px;
+}
+
+.input {
+    border: none;
+    padding: 0;
+    background-color: #D9D9D9;
+    width: 40%;
+    height: 30px;
+    color: black;
+}
+
+.submit{
+    width: 40%;
+    height: 30px;
 }
